@@ -190,7 +190,7 @@ const Images = {
   'blank-card': blankCard,
   'blockchain-logo': blockchainLogo,
   'blockchain-logo-circle': blockchainLogoCircle,
-  // 'blockchain-icon': blockchainIcon,
+  'blockchain-icon': blockchainIcon,
   'buy-sell-color': buySellColor,
   'buy-sell-grey': buySellGrey,
   'buy-sell-learn-more': buySellLearnMore,
