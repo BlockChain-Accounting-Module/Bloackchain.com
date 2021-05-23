@@ -230,7 +230,7 @@ class Tooltips extends React.PureComponent {
           />
         </Tooltip>
         <Tooltip id='identityverification.headerhelper'>
-          <TextGroup inline>
+          {/* <TextGroup inline>
             <Text color='white' weight={400} size='12px'>
               <FormattedMessage
                 id='identityverification.tooltip.headerhelper'
@@ -248,7 +248,7 @@ class Tooltips extends React.PureComponent {
                 defaultMessage='Contact support.'
               />
             </Link>
-          </TextGroup>
+          </TextGroup> */}
         </Tooltip>
         <Tooltip
           id='exchangeSideNavConnected'
