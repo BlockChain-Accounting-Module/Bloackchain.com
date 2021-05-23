@@ -43,7 +43,7 @@ const FeaturesLarge = (
         </NavbarNavItemButton>
       </NavbarNavItem>
       <NavbarDivider />
-      <NavbarNavItem>
+      {/* <NavbarNavItem>
         <NavbarNavItemButton
           data-e2e='exchangeLink'
           onClick={() => props.swapActions.showModal('FeaturesTopNav')}
@@ -53,7 +53,7 @@ const FeaturesLarge = (
             <FormattedMessage id='buttons.swap' defaultMessage='Swap' />
           </NavbarNavItemTextHeader>
         </NavbarNavItemButton>
-      </NavbarNavItem>
+      </NavbarNavItem> */}
       <NavbarDivider />
       <NavbarNavItem>
         <NavbarNavItemButton

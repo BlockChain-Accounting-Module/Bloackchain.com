@@ -132,26 +132,26 @@ const Terms = props => {
             </Text>
           ) : (
             <Text color='grey800' size='12px' weight={500}>
-              <FormattedMessage
+              {/* <FormattedMessage
                 id='scenes.register.registerform.blockchain.read_1'
                 defaultMessage='By creating an account, you agree to Blockchain’s'
-              />
+              /> */}
             </Text>
           )}
           <span>&nbsp;</span>
-          <Link
+          {/* <Link
             href='https://www.blockchain.com/legal/terms'
             target='_blank'
             size='12px'
             weight={500}
             data-e2e='blockchainTermsLink'
-          >
-            <FormattedMessage
+          > */}
+            {/* <FormattedMessage
               id='scenes.register.registerform.blockchain.default.terms'
               defaultMessage='Terms of Service'
             />
-          </Link>
-          &nbsp;
+          </Link> */}
+          {/* &nbsp;
           <Text color='grey800' size='12px' weight={500}>
             &
           </Text>
@@ -167,7 +167,7 @@ const Terms = props => {
               id='scenes.register.registerform.blockchain.default.privacypolicy'
               defaultMessage='Privacy Policy.'
             />
-          </Link>
+          </Link> */}
         </TermsContainer>
       )
   }

@@ -320,13 +320,13 @@ const SignupCard = ({
         )}
         {!isLinkAccountGoal && (
           <>
-            <Line showForm={showForm} />
+            {/* <Line showForm={showForm} />
             <AppButtons showForm={showForm}>
               <Bottom>
                 <Badge type='applestore' />
                 <Badge type='googleplay' />
               </Bottom>
-            </AppButtons>
+            </AppButtons> */}
           </>
         )}
       </Card>
