@@ -35,33 +35,33 @@ class PairingCode extends React.PureComponent<Props> {
       <SettingContainer>
         <SettingSummary>
           <SettingHeader>
-            <FormattedMessage
+            {/* <FormattedMessage
               id='scenes.settings.general.pairingcode.title'
               defaultMessage='Mobile App Pairing Code'
-            />
+            /> */}
           </SettingHeader>
           <SettingDescription>
-            <FormattedMessage
+            {/* <FormattedMessage
               id='scenes.settings.general.pairingcode.description'
               defaultMessage="Scan the code (click on 'Show Pairing Code') with your Blockchain Wallet (iOS or Android) for a seamless connection to your wallet."
-            />
-            <FormattedMessage
+            /> */}
+            {/* <FormattedMessage
               id='scenes.settings.general.pairingcode.description2'
               defaultMessage='Download our mobile applications below.'
-            />
-            <Text color='error' size='13px' weight={600}>
+            /> */}
+            {/* <Text color='error' size='13px' weight={600}>
               <FormattedMessage
                 id='scenes.settings.general.pairingcode.warning'
                 defaultMessage='Do not share your Pairing Code with others.'
               />
-            </Text>
+            </Text> */}
             <BadgesContainer>
-              <Badge size='34px' type='applestore' />
-              <Badge size='34px' type='googleplay' />
+              {/* <Badge size='34px' type='applestore' />
+              <Badge size='34px' type='googleplay' /> */}
             </BadgesContainer>
           </SettingDescription>
         </SettingSummary>
-        <SettingComponent>
+        {/* <SettingComponent>
           <Button
             data-e2e='showQrCode'
             nature='empty-blue'
@@ -72,7 +72,7 @@ class PairingCode extends React.PureComponent<Props> {
               defaultMessage='Show Pairing Code'
             />
           </Button>
-        </SettingComponent>
+        </SettingComponent> */}
       </SettingContainer>
     )
   }
