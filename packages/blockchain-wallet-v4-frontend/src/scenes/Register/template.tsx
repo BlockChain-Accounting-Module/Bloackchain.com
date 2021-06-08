@@ -450,7 +450,7 @@ const Register = (props: InjectedFormProps<{}, Props> & Props) => {
       <CardsWrapper>
         <SignupCard {...props} />
 
-        <CardWrapper>
+        {/* <CardWrapper>
           <Card>
             <CardHeader>
               <IconWrapper color='black'>
@@ -547,7 +547,7 @@ const Register = (props: InjectedFormProps<{}, Props> & Props) => {
               </ExchangeButton>
             </Link>
           </Card>
-        </CardWrapper>
+        </CardWrapper> */}
       </CardsWrapper>
     </SignupWrapper>
   )
